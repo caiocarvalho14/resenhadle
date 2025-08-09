@@ -50,7 +50,7 @@ function handleGuess() {
 
     if (userGuess === dailyCharacter.name.toLowerCase()) {
         endGame(true);
-    } else if (attempts >= 6) {
+    } else if (attempts >= 5) {
         endGame(false);
     }
 }

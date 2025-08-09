@@ -7,7 +7,7 @@ export const characters = [
         gender: "Masculino",
         type: "Resenha",
         corDePele:"Branco",
-        habilidades: ["O Criador","Programação","Resenhar","Rock"],
+        habilidades: ["O Criador","Programação","Gnose","Jogos","Resenhar","Rock","Emitir Aura"],
         origin: "Parnaíba",
         firstAppearanceYear: 2024,
         fotodir: "caio.png"
@@ -17,7 +17,7 @@ export const characters = [
         gender: "Masculino",
         type: "Resenha",
         corDePele:"Negro",
-        habilidades: ["Irritar","Desenhos"],
+        habilidades: ["Irritar","Gnose","Desenhos","Programação"],
         origin: "Parnaíba",
         firstAppearanceYear: 2019,
         fotodir: "raonny.jpg"
@@ -37,9 +37,9 @@ export const characters = [
         gender: "???",
         type: "Entidade",
         corDePele:"Reluzente...",
-        habilidades: ["???"],
+        habilidades: ["Resenhar","Emitir Aura"],
         origin: "Parnaíba",
-        firstAppearanceYear: 2024,
+        firstAppearanceYear: 2025,
         fotodir: "jeffersontransendente.jpg"
     },
     {
@@ -47,7 +47,7 @@ export const characters = [
         gender: "Masculino",
         type: "Resenha",
         corDePele:"Branco",
-        habilidades: ["Basqueteiro","Entrosante","Rock"],
+        habilidades: ["Basqueteiro","Entrosante","Rock","Transante","Resenhar"],
         origin: "Parnaíba",
         firstAppearanceYear: 2024,
         fotodir: "jefferson.jpg"
@@ -57,7 +57,7 @@ export const characters = [
         gender: "Masculino",
         type: "Resenha",
         corDePele:"Negro",
-        habilidades: ["Basqueteiro","Voleiador"],
+        habilidades: ["Basqueteiro","Voleiador","Transante","Resenhar"],
         origin: "Parnaíba",
         firstAppearanceYear: 2024,
         fotodir: "gabriel.jpg"
@@ -67,7 +67,7 @@ export const characters = [
         gender: "Masculino",
         type: "Entrosa",
         corDePele:"Branco",
-        habilidades: ["SNAMBIENTAL","Entrosante"],
+        habilidades: ["SNAMBIENTAL","Entrosante","Programação","Resenhar","Emitir Ego"],
         origin: "Parnaíba",
         firstAppearanceYear: "???",
         fotodir: "enzo.jpg"
@@ -77,7 +77,7 @@ export const characters = [
         gender: "Masculino",
         type: "Entrosa",
         corDePele:"Branco",
-        habilidades: ["Corredor","Entrosante","Rock"],
+        habilidades: ["Corredor","Entrosante","Rock","Resenhar","Emitir Ego"],
         origin: "Parnaíba",
         firstAppearanceYear: "???",
         fotodir: "gustavosantos.jpg"
@@ -86,17 +86,17 @@ export const characters = [
         name: "Rafael",
         gender: "Masculino",
         type: "Resenha",
-        corDePele:"Branco",
-        habilidades: ["Contexto","Resenhar","Rock","Basqueteiro"],
+        corDePele:"Pardo",
+        habilidades: ["Contexto","Resenhar","Rock","Basqueteiro","Jogos","Emitir Aura"],
         origin: "Parnaíba",
-        firstAppearanceYear: "???",
+        firstAppearanceYear: "2018",
         fotodir: "rafael.jpg"
     },
     {
         name: "Heitor",
         gender: "Masculino",
         type: "Resenha",
-        corDePele:"Branco",
+        corDePele:"Pardo",
         habilidades: ["Resenhar","Basqueteiro"],
         origin: "Joaquim Pires",
         firstAppearanceYear: "???",
@@ -105,9 +105,9 @@ export const characters = [
     {
         name: "Italo X",
         gender: "Masculino",
-        type: "Velocidade",
+        type: "A Tropa",
         corDePele:"Branco",
-        habilidades: ["Autoestima","Congelamento de Tempo"],
+        habilidades: ["Autoestima","Congelamento de Tempo","Emitir Aura","Emitir Ego"],
         origin: "Parnaíba",
         firstAppearanceYear: "2018",
         fotodir: "italo.jpg"
@@ -117,7 +117,7 @@ export const characters = [
         gender: "Masculino",
         type: "Entrosa",
         corDePele:"Branco",
-        habilidades: ["Boxeador","Entrosante","Flamenguista"],
+        habilidades: ["Boxeador","Entrosante","Flamenguista","Resenhar"],
         origin: "Parnaíba",
         firstAppearanceYear: "2018",
         fotodir: "felipearaujo.jpg"
@@ -125,7 +125,7 @@ export const characters = [
     {
         name: "Rafael (FlintStones)",
         gender: "Masculino",
-        type: "Resenha",
+        type: "Entidade",
         corDePele:"Branco",
         habilidades: ["Contexto","Resenhar","Rock","Basqueteiro","FlinstStones"],
         origin: "FlinstStones",
@@ -137,7 +137,7 @@ export const characters = [
         gender: "???",
         type: "Entidade",
         corDePele:"Reluzente...",
-        habilidades: ["Resenhar"],
+        habilidades: ["Resenhar","Emitir Aura"],
         origin: "???",
         firstAppearanceYear: "???",
         fotodir: "aresenha.png"
@@ -146,10 +146,50 @@ export const characters = [
         name: "Sádila",
         gender: "Feminino",
         type: "Resenha",
-        corDePele:"Branca",
-        habilidades: ["Rock","Mulher do Gustavo"],
+        corDePele:"Branco",
+        habilidades: ["Rock","Mulher do Gustavo","Resenhar"],
         origin: "Luzilândia",
-        firstAppearanceYear: 2022,
+        firstAppearanceYear: 2018,
         fotodir: "sadila.jpg"
+    },
+    {
+        name: "Raonny (Galactus)",
+        gender: "???",
+        type: "Entidade",
+        corDePele:"???",
+        habilidades: ["Emitir Aura"],
+        origin: "???",
+        firstAppearanceYear: "???",
+        fotodir: "galactus.jpg"
+    },
+    {
+        name: "Mateus",
+        gender: "Masculino",
+        type: "A tropa",
+        corDePele:"Pardo",
+        habilidades: ["Programação","Edits"],
+        origin: "Parnaíba",
+        firstAppearanceYear: "???",
+        fotodir: "mateus.jpg"
+    },
+    {
+        name: "Francisco Heitor",
+        gender: "Masculino",
+        type: "A tropa",
+        corDePele:"Pardo",
+        habilidades: ["Programação"],
+        origin: "Parnaíba",
+        firstAppearanceYear: "???",
+        fotodir: "franciscoheito.png"
+    },
+    {
+        name: "Marcelo",
+        gender: "Masculino",
+        type: "A tropa",
+        corDePele:"Pardo",
+        habilidades: ["Programação","Emitir Aura","Emitir Ego"],
+        origin: "Parnaíba",
+        firstAppearanceYear: "???",
+        fotodir: "marcelo.jpg"
     }
 ];
