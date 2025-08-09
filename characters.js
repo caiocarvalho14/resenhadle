@@ -141,5 +141,15 @@ export const characters = [
         origin: "???",
         firstAppearanceYear: "???",
         fotodir: "aresenha.png"
+    },
+    {
+        name: "Sádila",
+        gender: "Feminino",
+        type: "Resenha",
+        corDePele:"Branca",
+        habilidades: ["Rock","Mulher do Gustavo"],
+        origin: "Luzilândia",
+        firstAppearanceYear: 2022,
+        fotodir: "sadila.png"
     }
 ];
