@@ -150,6 +150,6 @@ export const characters = [
         habilidades: ["Rock","Mulher do Gustavo"],
         origin: "Luzilândia",
         firstAppearanceYear: 2022,
-        fotodir: "sadila.png"
+        fotodir: "sadila.jpg"
     }
 ];
