@@ -12,6 +12,7 @@ const characterNames = characters.map(char => char.name);
 
 function initGame() {
     console.log("Jogo iniciado! Personagem do dia:", dailyCharacter.name);
+    console.log(`Total de Personagens: ${characters.length}`)
     guessButton.addEventListener('click', handleGuess);
     guessInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {

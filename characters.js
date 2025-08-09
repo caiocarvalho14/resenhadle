@@ -35,7 +35,7 @@ export const characters = [
     {
         name: "Jefferson Transcendido",
         gender: "???",
-        type: "???",
+        type: "Entidade",
         corDePele:"Reluzente...",
         habilidades: ["???"],
         origin: "Parnaíba",
@@ -98,7 +98,7 @@ export const characters = [
         type: "Resenha",
         corDePele:"Branco",
         habilidades: ["Resenhar","Basqueteiro"],
-        origin: "Ratanabá",
+        origin: "Joaquim Pires",
         firstAppearanceYear: "???",
         fotodir: "heitor.jpg"
     },
@@ -135,9 +135,9 @@ export const characters = [
     {
         name: "A Resenha",
         gender: "???",
-        type: "Resenha",
-        corDePele:"Reluzente",
-        habilidades: ["Resenhar","Entidade"],
+        type: "Entidade",
+        corDePele:"Reluzente...",
+        habilidades: ["Resenhar"],
         origin: "???",
         firstAppearanceYear: "???",
         fotodir: "aresenha.png"
