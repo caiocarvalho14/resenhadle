@@ -1,5 +1,5 @@
 :root {
-    --bg-primary: #161b22ba;
+    --bg-primary: #161b2200;
     --bg-secondary: #30363d;
     --bg-suggestions: #21262d;
 
@@ -9,9 +9,9 @@
     --text-primary: #c9d1d9;
     --text-light: #ffffff;
 
-    --color-correct: #2da44e;
+    --color-correct: #269445;
     --color-partial: #d29922;
-    --color-incorrect: #6e7681;
+    --color-incorrect: #730000;
 
     --shadow-color: rgba(0, 0, 0, 0.5);
     --gradient-start: rgba(0, 0, 0, 0.308);
@@ -46,21 +46,34 @@ body {
     background-color: var(--bg-primary);
     padding: 2.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 15px var(--shadow-color);
+    /* box-shadow: 0 4px 15px var(--shadow-color); */
 }
 
 .guess-input-group .form-control {
-    background-color: #ffffff66;
+    background-color: #ffffff00;
     border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.form-control::placeholder {
     color: var(--text-primary);
 }
 
 .guess-input-group .form-control:focus {
     background-color: #ffffff66;
     color: var(--text-primary);
-    border-color: #58a6ff;
-    box-shadow: 0 0 0 0.25rem rgba(88, 166, 255, 0.25);
+    border-color: #f8f8f8;
+    box-shadow: 0 0 0 0.25rem rgba(81, 81, 81, 0.25);
     outline: 0;
+}
+
+.botao {
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.botao:hover {
+    border-color: var(--border-color);
 }
 
 .guess-input-group .form-control,
@@ -73,16 +86,17 @@ body {
 }
 
 .result-row {
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
     transition: all 0.3s ease-in-out;
 }
 
 .result-box {
+    outline: solid 1px;
     padding: 0px;
     margin: 5px;
-    border-radius: var(--border-radius);
+    /* border-radius: var(--border-radius); */
     text-align: center;
-    font-weight: bold;
+    font-weight: 100;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,9 +117,23 @@ body {
     border-radius: var(--border-radius);
 }
 
-.correct { background-color: var(--color-correct); color: var(--text-light); }
-.partial { background-color: var(--color-partial); color: var(--text-light); }
-.incorrect { background-color: var(--color-incorrect); color: var(--text-light); }
+.correct {
+    background:url(../images/verde.png), var(--color-correct);
+    background-size: 100%;
+    color: var(--text-light);
+}
+
+.partial {
+    background:url(../images/amarelo.png), var(--color-partial);
+    background-size: 100%;
+    color: var(--text-light);
+}
+
+.incorrect {
+    background:url(../images/vermelho.png), var(--color-incorrect);
+    background-size: 100%;
+    color: var(--text-light);
+}
 
 .arrow-up,
 .arrow-down {

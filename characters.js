@@ -191,5 +191,35 @@ export const characters = [
         origin: "Parnaíba",
         firstAppearanceYear: "???",
         fotodir: "marcelo.jpg"
+    },
+    {
+        name: "Ratanabá",
+        gender: "???",
+        type: "Lugar",
+        corDePele:"???",
+        habilidades: ["Moradia"],
+        origin: "Ratanabá",
+        firstAppearanceYear: "???",
+        fotodir: "ratanaba.png"
+    },
+    {
+        name: "Parnaíba",
+        gender: "???",
+        type: "Lugar",
+        corDePele:"???",
+        habilidades: ["Moradia"],
+        origin: "Parnaíba",
+        firstAppearanceYear: "???",
+        fotodir: "parnaiba.png"
+    },
+    {
+        name: "Xique-Xique",
+        gender: "???",
+        type: "Lugar",
+        corDePele:"???",
+        habilidades: ["Moradia"],
+        origin: "Xique-Xique",
+        firstAppearanceYear: "???",
+        fotodir: "xiquexique.png"
     }
 ];
