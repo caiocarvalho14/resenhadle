@@ -159,7 +159,10 @@ function endGame(isWinner) {
         ? `Acertou em ${attempts} tentativa(s)`
         : `Fim de jogo! A pessoa do dia era: ${dailyCharacter.name}.`;
 
-    setTimeout(() => alert(message), 500);
+    setTimeout(() => {
+        alert(message)
+        window.location.href="index.html"
+    }, 500);
 }
 
 document.addEventListener('DOMContentLoaded', initGame);

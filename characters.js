@@ -7,7 +7,7 @@ export const characters = [
         gender: "Masculino",
         type: "Resenha",
         corDePele:"Branco",
-        habilidades: ["Programação","Resenhar","Rock"],
+        habilidades: ["O Criador","Programação","Resenhar","Rock"],
         origin: "Parnaíba",
         firstAppearanceYear: 2024,
         fotodir: "caio.png"
