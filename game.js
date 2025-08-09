@@ -90,7 +90,7 @@ function displayGuessResult(guessedCharacter) {
     imageBox.className = 'col result-box d-flex flex-column justify-content-center';
     
     const imagePath = guessedCharacter.fotodir ? `images/${guessedCharacter.fotodir}` : 'images/placeholder.jpg';
-    imageBox.innerHTML = `<img src="${imagePath}" alt="${guessedCharacter.name}" title="${guessedCharacter.name}" class="img-fluid">`;
+    imageBox.innerHTML = `<a href="https://caiocarvalho14.github.io/resenhadle/${imagePath}" target="_blank"><img src="${imagePath}" alt="${guessedCharacter.name}" title="${guessedCharacter.name}" class="img-fluid"></a>`;
     
     guessRow.appendChild(imageBox);
 
