@@ -145,7 +145,7 @@ export const characters = [
     {
         name: "Sádila",
         gender: "Feminino",
-        type: "Resenha",
+        type: "A Dupla",
         corDePele:"Branco",
         habilidades: ["Rock","Mulher do Gustavo","Resenhar"],
         origin: "Luzilândia",
@@ -165,7 +165,7 @@ export const characters = [
     {
         name: "Mateus",
         gender: "Masculino",
-        type: "A tropa",
+        type: "A Tropa",
         corDePele:"Pardo",
         habilidades: ["Programação","Edits"],
         origin: "Parnaíba",
@@ -175,7 +175,7 @@ export const characters = [
     {
         name: "Francisco Heitor",
         gender: "Masculino",
-        type: "A tropa",
+        type: "A Tropa",
         corDePele:"Pardo",
         habilidades: ["Programação"],
         origin: "Parnaíba",
@@ -185,7 +185,7 @@ export const characters = [
     {
         name: "Marcelo",
         gender: "Masculino",
-        type: "A tropa",
+        type: "A Tropa",
         corDePele:"Pardo",
         habilidades: ["Programação","Emitir Aura","Emitir Ego"],
         origin: "Parnaíba",
@@ -221,5 +221,15 @@ export const characters = [
         origin: "Xique-Xique",
         firstAppearanceYear: "???",
         fotodir: "xiquexique.png"
+    },
+    {
+        name: "O Peixe de água e sal",
+        gender: "Masculino",
+        type: "Entidade",
+        corDePele:"Laranja",
+        habilidades: ["Abissal","Emitir Ego"],
+        origin: "Mar Abissal",
+        firstAppearanceYear: "2025",
+        fotodir: "peixeagualesal.png"
     }
 ];
