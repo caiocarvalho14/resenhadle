@@ -7,7 +7,7 @@ export const characters = [
         gender: "Masculino",
         type: "Resenha",
         corDePele:"Branco",
-        habilidades: ["O Criador","Programação","Gnose","Jogos","Resenhar","Rock","Emitir Aura"],
+        habilidades: ["O Criador","Programação","Gnose","Jogos","Resenhar","Rock","Emitir Aura","Joga Marveldle"],
         origin: "Parnaíba",
         firstAppearanceYear: 2024,
         fotodir: "caio.png"
@@ -17,7 +17,7 @@ export const characters = [
         gender: "Masculino",
         type: "Resenha",
         corDePele:"Negro",
-        habilidades: ["Irritar","Gnose","Desenhos","Programação"],
+        habilidades: ["Irritar","Gnose","Desenhos","Programação","Joga Marveldle"],
         origin: "Parnaíba",
         firstAppearanceYear: 2019,
         fotodir: "raonny.jpg"
@@ -231,5 +231,25 @@ export const characters = [
         origin: "Mar Abissal",
         firstAppearanceYear: "2025",
         fotodir: "peixeagualesal.png"
+    },
+    {
+        name: "Gabriel Vieira",
+        gender: "Masculino",
+        type: "Cristão",
+        corDePele:"Branco",
+        habilidades: ["Emitir Aura","Joga Marveldle","Programação"],
+        origin: "Parnaíba",
+        firstAppearanceYear: "2025",
+        fotodir: "gabrielvieira.jpg"
+    },
+    {
+        name: "Gustavo Erick",
+        gender: "Masculino",
+        type: "A Dupla",
+        corDePele:"Negro",
+        habilidades: ["Emitir Ego","Basqueteiro","Programação"],
+        origin: "Parnaíba",
+        firstAppearanceYear: "2025",
+        fotodir: "gustavoerick.jpg"
     }
 ];
